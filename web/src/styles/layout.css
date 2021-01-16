@@ -1,4 +1,9 @@
+
 @import './vars.css';
+/* lite custom with the Tailwind & Prose CDN */
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -15,4 +20,20 @@ body {
 
 html, body, body > div, body > div > div {
   height: 100%;
+}
+
+/* CUSTOMS */
+.cursive {
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}
+/*  */
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+/* Specific Tailwind size */
+.home-name {
+  font-size: 150px;
 }

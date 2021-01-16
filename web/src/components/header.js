@@ -9,7 +9,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
   <div className={styles.root}>
     <div className={styles.wrapper}>
       <h1 className={styles.branding}>
-        <Link to='/'>{siteTitle}</Link>
+        <Link to='/' activeClassName="text-white" className="inline-flex items-center py-6 px-3 mr-4 text-white-100 hover:text-purple-800 text-4xl font-bold cursive tracking-widest">{siteTitle}</Link>
       </h1>
 
       <button className={styles.toggleNavButton} onClick={showNav ? onHideNav : onShowNav}>
@@ -19,16 +19,20 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
       <nav className={cn(styles.nav, showNav && styles.showNav)}>
         <ul>
           <li>
-            <Link to='/about/'>About</Link>
+            <Link to='/about/' activeClassName="text-white-100 bg-gray-200"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800">About</Link>
           </li>
           <li>
-            <Link to='/projects/'>Projects</Link>
+            <Link to='/projects/' activeClassName="text-white-100 bg-gray-200"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-purple-200 hover:text-purple-800">Projects</Link>
           </li>
           <li>
-            <Link to='/blog/'>Blog</Link>
+            <Link to='/blog/' activeClassName="text-white-100 bg-gray-200"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-purple-200 hover:text-purple-800">Blog</Link>
           </li>
           <li>
-            <Link to='/contact/'>Contact</Link>
+            <Link to='/contact/' activeClassName="text-white-100 bg-gray-200"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-purple-200 hover:text-purple-800">Contact</Link>
           </li>
         </ul>
       </nav>
