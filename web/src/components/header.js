@@ -39,6 +39,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
      
     </div>
         <hr />
+        
   </div>
 )
 
