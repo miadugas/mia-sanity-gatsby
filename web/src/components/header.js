@@ -36,7 +36,9 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
           </li>
         </ul>
       </nav>
+     
     </div>
+        <hr />
   </div>
 )
 

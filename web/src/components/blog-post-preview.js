@@ -26,9 +26,13 @@ function BlogPostPreview (props) {
         <div className={styles.excerpt}>
           <BlockText blocks={props._rawExcerpt} />
         </div>
+        
       )}
+      <hr />
     </Link>
-  )
+    
+  ) 
 }
+
 
 export default BlogPostPreview
