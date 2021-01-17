@@ -131,3 +131,5 @@ npm run now-deploy
 MIT
 # mia-sanity
 # mia-sanity-gatsby
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a97119d2-9902-4229-921a-a7f466283f5e/deploy-status)](https://app.netlify.com/sites/miasgotthis/deploys)
