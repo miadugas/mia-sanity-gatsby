@@ -19,16 +19,16 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
       <nav className={cn(styles.nav, showNav && styles.showNav)}>
         <ul>
           <li>
-            <Link to='/about/' activeClassName="text-white-100 bg-gray-200"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800">About</Link>
-          </li>
-          <li>
             <Link to='/projects/' activeClassName="text-white-100 bg-gray-200"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-purple-200 hover:text-purple-800">Projects</Link>
           </li>
           <li>
             <Link to='/blog/' activeClassName="text-white-100 bg-gray-200"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-purple-200 hover:text-purple-800">Blog</Link>
+          </li>
+          <li>
+            <Link to='/about/' activeClassName="text-white-100 bg-gray-200"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800">About</Link>
           </li>
           <li>
             <Link to='/contact/' activeClassName="text-white-100 bg-gray-200"

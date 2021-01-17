@@ -25,5 +25,10 @@
   "devDependencies": {
     "lerna": "^3.14.1",
     "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "emotion": "^9.2.12",
+    "react-custom-share": "^0.4.8",
+    "react-icons": "^4.1.0"
   }
 }
