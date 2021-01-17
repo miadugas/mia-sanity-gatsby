@@ -23,16 +23,19 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
                   <br />
                 </span>
               )}
-              {companyInfo.zipCode} {companyInfo.city}
+               
+              
               {companyInfo.country && <span>, {companyInfo.country}</span>}
             </div>
           )}
         </div>
 
         <div className={styles.siteInfo}>
-          © {new Date().getFullYear()}, Built with <a href='https://www.sanity.io'>Sanity</a> &amp;
+          © {new Date().getFullYear()}, Built with 
+          <a href='https://www.gatsbyjs.org'> <strong>Gatsby, </strong></a>
+          Data from <a href='https://www.sanity.io'><strong>Sanity</strong></a> &amp;
           {` `}
-          <a href='https://www.gatsbyjs.org'>Gatsby</a>
+          Hosted on <a href='https://www.netlify.com'><strong>Netlify </strong></a>
         </div>
       </div>
     </footer>
