@@ -1,4 +1,4 @@
-# A sample company website built with [Gatsby](https://www.gatsbyjs.org/) & [Sanity.io](https://www.sanity.io)
+# Mia Portfolio
 
 This examples combines [Gatsby](https://www.gatsbyjs.org/) site generation with [Sanity](https://www.sanity.io) content management in a neat little company website. Read [the blog post](https://www.sanity.io/blog/get-started-with-gatsby-and-structured-content) and [see the getting started video](https://www.youtube.com/watch?v=qU4lFYp3KiQ).
 
@@ -131,5 +131,7 @@ npm run now-deploy
 MIT
 # mia-sanity
 # mia-sanity-gatsby
+
+Built with Gatsby. Data from Sanity.io. Hosted on Netlify.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a97119d2-9902-4229-921a-a7f466283f5e/deploy-status)](https://app.netlify.com/sites/miasgotthis/deploys)
