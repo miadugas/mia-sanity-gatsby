@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './header'
-import { SocialIcon } from 'react-social-icons'
+
 
 import '../styles/layout.css'
 import styles from './layout.module.css'
@@ -31,13 +31,6 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
             </div>
           )}
         </div>
-        <div>
-        <SocialIcon url="http://linkedin.com/in/mia-dugas" />
-
-        </div>
- 
-
-      
 
         <div className={styles.siteInfo}>
           © {new Date().getFullYear()}, Built with 
