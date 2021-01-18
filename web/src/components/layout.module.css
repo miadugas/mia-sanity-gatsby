@@ -1,3 +1,7 @@
+/* lite custom with the Tailwind & Prose CDN */
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+
 @import '../styles/media-queries.css';
 @import '../styles/vars.css';
 
