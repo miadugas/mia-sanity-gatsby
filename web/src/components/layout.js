@@ -33,13 +33,13 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
 
         <div className={styles.siteInfo}>
           © {new Date().getFullYear()}, Built with 
-          <a href='https://www.gatsbyjs.org'> <strong>Gatsby, </strong></a>
-          Data from <a href='https://www.sanity.io'><strong>Sanity</strong></a> &amp;
+          <a href='https://www.gatsbyjs.org' className='text-red-600'> <strong>Gatsby, </strong></a>
+          Data from <a href='https://www.sanity.io' className='text-green-500'><strong>Sanity</strong></a> &amp;
           {` `}
-          Hosted on <a href='https://www.netlify.com'><strong>Netlify </strong></a>
+          Hosted on <a href='https://www.netlify.com' className='text-purple-600'><strong>Netlify </strong></a>
         </div>
       </div>
-    </footer>
+    </footer> 
   </>
 )
 
