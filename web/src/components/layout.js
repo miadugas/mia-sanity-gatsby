@@ -32,10 +32,12 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
           )}
         </div>
         <div>
-          <SocialIcon />
-          <SocialIcon />
-          <SocialIcon />
+        <SocialIcon url="http://linkedin.com/in/mia-dugas" />
+
         </div>
+ 
+
+      
 
         <div className={styles.siteInfo}>
           © {new Date().getFullYear()}, Built with 

@@ -1,0 +1,362 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '3.14.1',
+0 silly argv   '$0': '/Users/miamorticia/Desktop/Udemy/Sanity-demos/mia-sanity-gatsby/node_modules/.bin/lerna',
+0 silly argv   script: 'start'
+0 silly argv }
+1 notice cli v3.14.1
+2 verbose rootPath /Users/miamorticia/Desktop/Udemy/Sanity-demos/mia-sanity-gatsby
+3 info Executing command in 2 packages: "npm run start"
+4 silly npmRunScript.stream [ 'start', [], 'example-company-website-gatsby-sanity-combo-studio' ]
+5 silly getExecOpts /Users/miamorticia/Desktop/Udemy/Sanity-demos/mia-sanity-gatsby/studio undefined
+6 silly npmRunScript.stream [ 'start', [], 'example-company-website-gatsby-sanity-combo-frontend' ]
+7 silly getExecOpts /Users/miamorticia/Desktop/Udemy/Sanity-demos/mia-sanity-gatsby/web undefined
+8 error Error: Command failed: npm run start
+8 error Assertion failed: (0), function uv_close, file ../deps/uv/src/unix/core.c, line 174.
+8 error
+8 error
+8 error > example-company-website-gatsby-sanity-combo-frontend@1.0.0 start
+8 error > npm run develop
+8 error
+8 error
+8 error > example-company-website-gatsby-sanity-combo-frontend@1.0.0 develop
+8 error > gatsby develop
+8 error
+8 error success open and validate gatsby-configs - 0.023s
+8 error success load plugins - 1.392s
+8 error success onPreInit - 0.007s
+8 error success initialize cache - 0.048s
+8 error success copy gatsby files - 0.217s
+8 error info [sanity] Fetching remote GraphQL schema
+8 error info [sanity] Transforming to Gatsby-compatible GraphQL SDL
+8 error warn [sanity] Type `SanityAssetSourceData` has field with name `id`, which conflicts with Gatsby's
+8 error info [sanity] Stitching GraphQL schemas from SDL
+8 error success onPreBootstrap - 0.482s
+8 error success createSchemaCustomization - 0.001s
+8 error info [sanity] Fetching export stream for dataset
+8 error info [sanity] Overlaying drafts
+8 error info [sanity] Watch mode enabled, starting a listener
+8 error info [sanity] Done exporting!
+8 error success source and transform nodes - 0.524s
+8 error success building schema - 0.754s
+8 error info Creating blog post page: /blog/2020/10/what-s-it-like-to-be-a-junior-developer/
+8 error info Creating blog post page: /blog/2021/01/angular-vs-react-vs-vue-my-perspective/
+8 error info Creating blog post page: /blog/2020/11/do-web-developers-still-have-value/
+8 error info Creating project page: /project/codecamper-api/
+8 error info Creating project page: /project/muse-messenger/
+8 error info Creating project page: /project/iloftz-mobile-app/
+8 error info Creating project page: /project/python-web-scrapper/
+8 error info Creating project page: /project/covid-19-live-tracker-stats/
+8 error success createPages - 0.214s
+8 error success createPagesStatefully - 0.129s
+8 error success onPreExtractQueries - 0.009s
+8 error success update schema - 0.084s
+8 error success extract queries from components - 1.042s
+8 error success write out requires - 0.044s
+8 error success write out redirect data - 0.008s
+8 error success onPostBootstrap - 0.002s
+8 error ⠀
+8 error info bootstrap finished - 12.859 s
+8 error ⠀
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess run queries - 0.198s - 18/18 90.94/s
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gwarn Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gwarn Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gwarn Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[GYou can now view example-company-website-gatsby-sanity-combo-frontend in the browser.
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G  http://localhost:8000/
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[GView GraphiQL, an in-browser IDE, to explore your site's data and schema
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G  http://localhost:8000/___graphql
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[GNote that the development build is not optimized.
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[GTo create a production build, use gatsby build
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Building development bundle - 12.611s
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.194s
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.142s
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess extract queries from components - 0.248s
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error /Users/miamorticia/Desktop/Udemy/Sanity-demos/mia-sanity-gatsby/web/src/components/layout.js: Expected corresponding JSX closing tag for <footer> (46:6)
+8 error
+8 error   44 |           Hosted on <a href='https://www.netlify.com'><strong>Netlify </strong></a>
+8 error   45 |         </div>
+8 error > 46 |       </div>
+8 error      |       ^
+8 error   47 |     </footer>
+8 error   48 |   </>
+8 error   49 | )
+8 error
+8 error File: src/components/layout.js:46:6
+8 error
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gfailed Re-building development bundle - 1.514s
+8 error
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 16 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error
+8 error     at makeError (/Users/miamorticia/Desktop/Udemy/Sanity-demos/mia-sanity-gatsby/node_modules/execa/index.js:174:9)
+8 error     at /Users/miamorticia/Desktop/Udemy/Sanity-demos/mia-sanity-gatsby/node_modules/execa/index.js:278:16
