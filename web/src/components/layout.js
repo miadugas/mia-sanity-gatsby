@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './header'
+import { SocialIcon } from 'react-social-icons'
 
 import '../styles/layout.css'
 import styles from './layout.module.css'
@@ -29,6 +30,11 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
               {companyInfo.country && <span>, {companyInfo.country}</span>}
             </div>
           )}
+        </div>
+        <div>
+          <SocialIcon />
+          <SocialIcon />
+          <SocialIcon />
         </div>
 
         <div className={styles.siteInfo}>

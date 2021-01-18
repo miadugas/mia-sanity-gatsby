@@ -29,6 +29,7 @@
   "dependencies": {
     "emotion": "^9.2.12",
     "react-custom-share": "^0.4.8",
-    "react-icons": "^4.1.0"
+    "react-icons": "^4.1.0",
+    "react-social-icons": "^4.1.0"
   }
 }
