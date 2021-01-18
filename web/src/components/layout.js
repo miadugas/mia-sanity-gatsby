@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './header'
-import { SocialIcon } from "react-social-icons";
+import { SocialIcon } from "react-social-icons"
 
 import '../styles/layout.css'
 import styles from './layout.module.css'
