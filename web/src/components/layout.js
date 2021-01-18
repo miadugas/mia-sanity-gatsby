@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './header'
+import { Twitter, Instagram, GitHub, Dribbble } from 'react-feather';
 
 
 import '../styles/layout.css'
@@ -31,6 +32,18 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
             </div>
           )}
         </div>
+
+        <div>
+        <Twitter color="red" size={48} /> 
+        <Instagram color="red" size={48} /> 
+        <GitHub color="red" size={48} /> 
+        <Dribbble color="red" size={48} /> 
+
+
+        </div>
+
+
+
 
         <div className={styles.siteInfo}>
           © {new Date().getFullYear()}, Built with 
