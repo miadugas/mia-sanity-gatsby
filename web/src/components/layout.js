@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './header'
 
-
 import '../styles/layout.css'
 import styles from './layout.module.css'
 
@@ -16,13 +15,13 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
           {companyInfo && (
             <div>
               {companyInfo.name}
-              <br />
+            
               {companyInfo.address1}
-              <br />
+             
               {companyInfo.address2 && (
                 <span>
                   {companyInfo.address2}
-                  <br />
+                  
                 </span>
               )}
                
@@ -31,8 +30,15 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
             </div>
           )}
         </div>
+   
+
         
         <div className={styles.siteInfo}>
+        <a href="https://twitter.com/miacodes" target="_blank"><i class="fab fa-twitter fa-2x py-3 px-3 my-3"></i></a>
+        <a href="https://github.com/miadugas" target="_blank"><i class="fab fa-github fa-2x py-3 px-3 my-3"></i></a>
+        <a href="https://www.linkedin.com/in/mia-dugas/" target="_blank"><i class="fab fa-linkedin-in fa-2x py-3 px-3 my-3"></i></a>
+        <a href="https://dribbble.com/MiaInBatcountry" target="_blank"><i class="fas fa-basketball-ball fa-2x py-3 px-3 my-3"></i></a> 
+        <br />              
           © {new Date().getFullYear()}, Built with 
           <a href='https://www.gatsbyjs.org'> <strong>Gatsby - </strong></a>
           Data from <a href='https://www.sanity.io'><strong>Sanity - </strong></a>
@@ -41,6 +47,8 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
       </div>
     </footer> 
   </>
+  
 )
+
 
 export default Layout
